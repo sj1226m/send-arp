@@ -139,7 +139,7 @@ int main(int argc, char* argv[]) {
         Mac sender_mac = get_mac_from_arp(sender_ip, interface);
         printf("[*] Sender MAC: %s\n", std::string(sender_mac).c_str());
 
-        //send_arp_infection(sender_ip, sender_mac, target_ip, attacker_mac, interface);
+        send_arp_infection(sender_ip, sender_mac, target_ip, attacker_mac, interface);
 
         printf("[*] ARP Spoofing Packet Sent!\n");
     }
