@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/moonseojin/Desktop/sdev/c_assignment/send-arp",
+      "program": "/Users/moonseojin/Desktop/sdev/c_assignment/send-arp/build/Debug/outDebug"
+    }
+  ]
+}
